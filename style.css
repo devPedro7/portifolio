@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*INICIO HEADER*/
+
+.nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #181818;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 28px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #DDD;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.nav a:hover{
+    color: #FFF;
+}
+/*FIM HEADER*/
+
+/*INICIO MAIN*/
+.main{
+    width: calc(100% - 5%);
+    height: calc(100vh - 80px);
+    display: flex;
+    padding-left: 5%;
+    align-items: center;
+    background-color: #000;
+    background-image: url(./images/programador.png);
+    background-size: cover;
+}
+
+.main h1{
+    color: #DDD;
+    font-size: 54px;
+}
+
+.main p{
+    margin-top: 10px;
+    margin-bottom: 35px;
+    font-size: 24px;
+    font-style: italic;
+    color: #1e96fc;
+}
+
+.main .main-botao{
+    padding: 14px;
+    border: 0;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+
+.main a{
+    text-decoration: none;
+    color: #181818;
+}
+/*FIM HEADER*/
