@@ -13,6 +13,9 @@
     display: flex;
     justify-content: flex-end;
     background-color: #181818;
+    position: sticky;
+    top: 0;
+    z-index: 3;
 }
 
 .nav ul{
@@ -67,6 +70,12 @@
     font-weight: bold;
     cursor: pointer;
     background-color: #FFFFFF;
+    transition: 0.9s;
+}
+
+.main-botao:hover{
+    transform: scale(1.1);
+    
 }
 
 .main a{
@@ -74,3 +83,30 @@
     color: #181818;
 }
 /*FIM HEADER*/
+
+/*INICIO SOBRE*/
+
+.sobre{
+    display: flex;
+    width: calc(100% - 80px 5% 80px 80px);
+    padding: 80px 5% 80px 80px;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobre-detail{
+    max-width: 50%;
+}
+
+.sobre img{
+    max-width: 30%;
+    border-radius: 50%;
+}
+
+.sobre-detail h2{
+    font-size: 42px;
+    margin-bottom: 14px;
+}
+
+/*FIM SOBRE*/
